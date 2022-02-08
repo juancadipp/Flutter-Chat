@@ -5,7 +5,7 @@ import 'package:chat/pages/register_page.dart';
 import 'package:chat/pages/usuarios_page.dart';
 
 final appRoutes = {
-  'usuarios': (_) => UsuariosPage(),
+  'user': (_) => UsuariosPage(),
   'chat': (_) => ChatPage(),
   'login': (_) => LoginPage(),
   'register': (_) => RegisterPage(),
